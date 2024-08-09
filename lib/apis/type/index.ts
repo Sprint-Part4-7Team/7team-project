@@ -340,3 +340,10 @@ export type PostTeamIdAuthSignInProviderResponse = {
     teamId: string;
   };
 };
+
+export interface getGoogleTokenResponse {
+  access_token: string;
+  id_token: string;
+  token_type: string;
+  expires_in: number;
+}
