@@ -13,6 +13,9 @@ const config: Config = {
       xl: "1280px",
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-pretendard)"],
+      },
       translate: {
         "-full": "-100%", // 'translate-x--full': '-100%'
       },
